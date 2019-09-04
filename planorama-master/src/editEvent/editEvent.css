@@ -1,0 +1,72 @@
+#editEvent-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#editEvent-container h3 {
+    margin-top: 0px;
+}
+
+#editEvent-container input {
+    margin-bottom: 25px;
+    line-height: 1.5;
+    color: #666;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    padding: 4px 7px;
+}
+
+#editEvent-container .button-container {
+    flex-basis: 90%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#editEvent-container .button-container button {
+    float: right;
+    color: white;
+    background-color: #284b63;
+}
+
+#editEvent-container label {
+    display: block;
+    width: 100%;
+}
+
+#editEvent-container .time-box {
+    width: 50%;
+    max-width: 180px;
+    display:inline-block;
+}
+
+#editEvent-container .name-box input {
+    width: calc(100% - 16px);
+}
+
+#editEvent-container .date-box {
+    width: 100%;
+}
+
+#editEvent-container .date-box .react-datepicker__input-container {
+    width: 100%;
+}
+
+#editEvent-container .date-box .react-datepicker-wrapper {
+    width: 100%;
+}
+
+#editEvent-container .date-box input {
+    width: 50%;
+    max-width: 155px;
+}
+
+
+
+#editEvent-container .description-box textarea {
+    width: calc(100% - 6px);
+    min-height: 100px;
+    resize: none;
+}

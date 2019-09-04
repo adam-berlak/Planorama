@@ -1,0 +1,78 @@
+#createEvent-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#createEvent-container h3 {
+    margin-top: 0px;
+}
+
+#createEvent-container input {
+    margin-bottom: 25px;
+    line-height: 1.5;
+    color: #666;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    padding: 4px 7px;
+}
+
+#createEvent-container .button-container {
+    flex-basis: 90%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#createEvent-container .button-container button {
+    float: right;
+    color: white;
+    background-color: #284b63;
+}
+
+#createEvent-container label {
+    display: block;
+    width: 100%;
+}
+
+#createEvent-container .time-box {
+    width: 50%;
+    max-width: 180px;
+    display:inline-block;
+}
+
+#createEvent-container .name-box {
+    
+}
+
+#createEvent-container .name-box input {
+    width: calc(100% - 16px);
+}
+
+#createEvent-container .date-box {
+    width: 100%;
+}
+
+#createEvent-container .date-box .react-datepicker__input-container {
+    width: 100%;
+}
+
+#createEvent-container .date-box .react-datepicker-wrapper {
+    width: 100%;
+}
+
+#createEvent-container .date-box input {
+    width: 50%;
+    max-width: 155px;
+}
+
+#createEvent-container .description-box {
+   
+}
+
+#createEvent-container .description-box textarea {
+    width: calc(100% - 6px);
+    min-height: 100px;
+    resize: none;
+}

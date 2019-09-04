@@ -1,0 +1,23 @@
+body { font: 13px Helvetica, Ariel; background: White; }
+h1 { margin: 0; padding: 0 0 20px; text-align: center; font-size: 22px; color: Black; }
+a { padding: 10px; display: block;}
+
+.title { top: 50%; left: 50%; position: absolute; transform: translate(-50%, -250%); box-sizing: border-box; }
+
+
+.loginbox { width: 100%;max-width: 500px; max-height: 500px; top: 50%; left: 50%; position: absolute; transform: translate(-50%, -35%); box-sizing: border-box; }
+.loginbox p { font-weight: bold; }
+.loginbox input { width: 100%; margin-bottom: 15px; padding-left: 15px; }
+.loginbox input[type="text"] { background: White; height: 55px; font-size: 15px}
+.loginbox input[type="password"] { background: White; height: 55px; font-size: 15px}
+.loginbox input[type="submit"] { width: 100%; height: 45px; background: #fb2525; color: #fff; font-size: 15px; }
+.loginbox input[type="submit"]:hover { width: 100%;  height: 45px; background: Blue; color: #fff; font-size: 15px; }
+.loginbox button { width: 100%; height: 40px; background: #fb2525; color: #fff; font-size: 15px; }
+.loginbox button:hover { width: 100%;  height: 40px; background: Blue; color: #fff; font-size: 15px; }
+
+.field-error { color: red; }
+
+.title h1 { color: red; text-align: center; font-size: 70px; }
+#titleHeader {
+    font-size: 70px;
+}

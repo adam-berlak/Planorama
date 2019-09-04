@@ -1,0 +1,51 @@
+.details-box-container {
+    border: 1px solid black;
+    margin: 10px;
+    position: relative;
+}
+
+.details-box-header {
+    width: 100%;
+    color: black;
+    background-color: #284b63;
+}
+
+.details-box-header > h2 {
+    text-align: left;
+    color: white;
+    padding:1px;
+    margin:0px;
+}
+.details-box-content {
+    padding: 5px;
+}
+
+.details-box-content > ul{
+    padding: 2px;
+    background-color: white;
+    list-style-type: none;
+    list-style-position: outside;
+    margin: 2px;
+}
+
+.details-box-content > li{
+    padding: 15px;
+    background-color: white;
+    list-style-type: none;
+    list-style-position: outside;
+    margin: 2px;
+}
+
+.details-box-content > button{
+    justify-content: flex-end;
+    align-content: flex-end;
+    background-color: #555555;
+    border-color: #555555;
+    max-width: 20%;
+
+
+}
+
+.detail-item {
+    padding: 5px;
+}

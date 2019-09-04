@@ -1,0 +1,30 @@
+.blue-header-box {
+    border: 1px solid black;
+    flex-basis:45%;
+    margin: 10px;
+    position: relative;
+}
+
+.blue-box-nav {
+    width: 100%;
+    color: black;
+    background-color: #284b63;
+}
+
+.blue-box-nav > h1 {
+    text-align: left;
+    color: white;
+    padding:5px;
+    
+}
+
+.blue-box-content {
+    padding: 5px;
+}
+
+@media only screen and (max-device-width : 480px) {
+    .blue-header-box {
+        flex-basis:95%;
+    }
+    }
+    

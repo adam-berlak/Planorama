@@ -1,0 +1,24 @@
+#box {
+    /* display: flex; */
+    /* flex-direction: column; */
+    border: 1px solid black;
+    padding: 10px;
+    margin: 2px;
+    
+    /* align-items: flex-start;
+    justify-content: flex-start; */
+}
+
+#userInfo {
+    /* align-items: flex-start; */
+    padding: 2px;
+    margin: 10px;
+    /* flex: 1; */
+
+}
+
+#textContainer{
+    /* flex: 8; */
+    margin-left: 5%;
+
+}

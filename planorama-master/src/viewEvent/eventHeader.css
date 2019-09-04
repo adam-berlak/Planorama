@@ -1,0 +1,35 @@
+#eventHeader {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#headerImage {
+    width: 100%;
+    min-height: 50px;
+    background-color: #555555;
+}
+
+.eventNameBar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #284b63;
+    min-height: 10%;
+}
+
+.eventNameBar > h1 {
+    flex: 1;
+    text-align: left;
+    color: white;
+    padding:5px;
+}
+
+.eventNameBar > button {
+    flex: .06;
+    background-color: #555555;
+    border-color: #555555;
+    color: white;
+    padding: 2px;
+    margin: 4px;
+    justify-content: center;
+}

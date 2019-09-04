@@ -1,0 +1,95 @@
+#pageTitle {
+    margin-top: 10px;
+    font-size: 3rem;
+    position: relative;
+}
+
+.Container {
+    display: flex;
+    flex-direction: column;
+    border: 1px;
+    flex-basis: 45%;
+    margin: 10px 100px 100px 100px;
+    position: relative;
+}
+
+.eventDetailBar {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 10%;
+    width: auto;
+    color: black;
+    background-color: rgba(170, 170, 170, 0.86);
+}
+
+.eventDetailBar h2 {
+    font-weight: normal;
+}
+
+.pastEvent {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.eventDetailText {
+    flex: 2;
+
+}
+
+.pastEventContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5%;
+    margin: 1px;
+    width: auto;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+
+}
+
+.pastEventItem {
+    flex: 1;
+}
+
+.viewButton {
+    flex: 1;
+    max-width: 10%;
+    background-color: #284b63;
+    color: white;
+}
+
+#createEventButton {
+    position: absolute;
+    right: 100px;
+    top: 100px;
+    background-color: #284b63;
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .Container {
+        margin: 10px 10px 10px 10px;
+    }
+    h3 {
+        font-size: 0.8rem;
+    }
+    .pastEventContainer {
+        justify-content: left;
+    }
+    .viewButton {
+        max-width: 13%;
+
+    }
+    .pastEventItem {
+        max-width: 28%;
+    }
+    #createEventButton {
+        top: 110px;
+        right: 10px;
+    }
+    
+}
